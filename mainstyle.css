@@ -1,0 +1,668 @@
+
+/* 
+Main or Shared Syles Go here
+*/
+
+h1 {
+    margin:0px;
+    padding:0px;
+}
+.main{     
+
+margin: 0px;
+}
+    
+input[type="checkbox"]{
+    display: none;
+}
+.photosbackground{
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-color: rgba(178,203,243, 1);
+    
+}
+
+.photosbackgrounded{
+    margin: 0px;
+    border: none;
+    overflow:visible;
+    background-repeat: no-repeat;
+    background-color: rgba(178,203,243, 1);
+
+}
+.photosbackgrounddl{
+    display:inline;
+    margin: 0px;
+    border: none;
+    overflow:visible;
+    background-repeat: no-repeat;
+    background-color: rgba(178,203,243, 1);
+
+}
+.pgalfoot1{
+        background-color: rgba(0,0,0, 1);
+        width: 100%;
+        height: 75px;
+        color: ivory;
+        bottom: 0;
+        position: fixed;     
+        
+    }    
+
+    .pgalhead1{
+        background-color: rgba(0,0,0, 0.9);
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+        height: 125px;
+        color: ivory;
+        text-align: left;
+        
+    }
+    
+        .pgalhead2{
+        background-color: rgba(0,0,53, 0.9);
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+        height: 125px;
+        color: ivory;
+        text-align: center;       
+        
+    }
+
+.headlogo1 {
+        background-color: rgba(0,0,0, 0.9);
+        border-radius: 50%;    
+        float: right;
+        margin: 0px;
+        padding: 2px;
+        width: auto;
+        height: auto;
+        
+}
+
+.flex-container {    
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 30px;
+}
+.flex-cnt-edit {
+        height:50%;
+        position: absolute;      
+        display:inline;
+        padding-left:150px;
+        padding-right:150px;
+        padding-top:10px;
+        overflow:hidden;
+}
+
+/* 
+Iframe Syles Go here
+*/
+
+.siframe {
+    width:400px;
+    height: 100%;  
+    margin: auto;
+    padding:0px;
+    border-style: none;  
+}
+
+
+.siframediv {
+    float: right;
+}
+.siframeimg {
+    width: auto;
+    height: 256px; 
+    margin: auto;
+    padding-top:15px;
+    border: none;
+}
+
+/* 
+Sidebar Syles Go here
+*/
+.sformw{
+    display:grid;
+    position: relative;  
+    float:right;
+    width:15%;
+    background-color: rgba(10,10,10, 0.5);
+    
+}
+
+.sidediv{
+       
+}
+.drpslesg{
+    color: white;
+    padding: 15px 75px;
+    background-color: rgba(10,10,10, 0.5);
+    font-size:16px;
+    border:none;
+}
+.drpslesg:hover{
+    background-color:  rgba(10,10,120, 1);
+}
+.sellnkg[type="submit"]{  
+display: block;    
+background-color: rgba(10,10,10, 0.5);
+border:none;
+color: white;
+padding: 15px 25px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+transition: background-color 0.5s;
+}   
+.sellnkg[type="submit"]:hover{
+ background-color:  rgba(10,10,120, 1);
+}  
+.sellglso[type=radio]:not(old){
+
+list-style:none;
+       
+}
+.sellgtxt{
+    
+background-color: rgba(10,10,10, 0.5);
+border:none;
+color: white;
+padding: 15px 75px;
+text-align: center;
+text-decoration: none;
+font-size: 18px;
+    
+}
+
+/* 
+Image Syles Go here
+*/
+.imgtxtin{
+    float:right;
+    z-index: 1;
+}
+.imggtxt{
+    display: block;
+    text-align:center;
+    overflow:hidden;
+    text-overflow:clip;
+}
+ .imageclick {
+        border: none;
+        cursor: pointer;
+}
+  .imgpreved {   
+   border: none;
+   height: 256px;
+   width: auto;
+   margin:0px;
+   padding:15px;
+   overflow:visible;
+
+}
+
+   .imgprev {
+     
+   top:0;
+   float: left;    
+   height: 256px;
+   width: auto;
+   margin:2px;
+   padding:15px;
+
+   }
+.imgchk {
+    width:99px;
+    height:80px;
+    position: absolute;
+    border-radius: 50%;
+    margin:75px;
+    z-index: -1;
+}
+.imgtxt {
+    padding: 0px;
+    margin: 0px;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.2s;
+    text-align:center;
+    
+}
+.imgtxt:after {
+    z-index: -1;
+    
+}
+.imgtxt:hover {
+    opacity: 1;
+    
+}
+.imgcontout {
+    float: left;
+    width: 256px;
+    height: 225px;  
+    margin:10px;
+    padding:0px;
+    border:1px;
+    border-style:solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    background-color: whitesmoke;
+    background-image: url("check.jpg");
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.imgcontin {
+    margin:0px;
+    padding:0px;
+    border-radius: 10px;
+    z-index: -3;   
+    
+}
+ .imggal {
+   top:0;  
+   float:left;
+   width:100%;
+   height:100%;
+   margin: auto;
+   padding:0px;
+   border:none;
+   
+}
+.imglabel {
+        width: 256px;
+        height: 171px;
+        margin: 0px;
+        padding:0px;
+        border-radius: 0px 10px 10px;
+        font-size: 16px;
+        z-index: -2;
+        
+}
+
+.imginput[type="checkbox"] + .imglabel{
+    width: 256px;
+    height: 171px;  
+    opacity: 1;
+    margin:0;
+    padding:0;
+    transition: opacity 0.2s, background-image 0.2s;
+    z-index: 0;
+}    
+.imginput[type="checkbox"]:checked + .imglabel{
+     opacity: 0.3;
+     background-color: rgba(10,120,10, 1);      
+     background-image:url("check.jpg");   
+}
+
+
+
+/* 
+Button Syles Go here
+*/
+
+.rtnbtn {
+
+background-color: rgba(10,120,10, 0.5);
+border:none;
+color: white;
+padding: 15px 30px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+transition: background-color 0.5s, padding 0.5s;
+margin-left: 20px;   
+   
+}
+.rtnbtn:hover{
+    background-color:  rgba(10,120,10, 1);
+    padding: 16px 32px;
+}
+
+
+.rstbtn[type="reset"] {
+float: right;
+background-color: rgba(120,10,10, 0.5);
+border: none;
+color: white;
+padding: 15px 30px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+transition: background-color 0.5s, padding 0.5s;
+   
+}
+
+.rstbtn[type="reset"]:hover{
+    background-color:  rgba(120,10,10, 1);
+    padding: 16px 32px;
+}
+
+
+.selbtn[type="submit"] {
+margin:auto;
+background-color: rgba(10,120,10, 0.5);
+border: 10px hidden;
+color: white;
+padding: 15px 30px;
+width: 90%;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+transition: background-color 1s, padding 1s;
+   
+}
+.selbtn[type="submit"]:hover{
+    background-color:  rgba(10,120,10, 1);
+    padding: 16px 32px;
+}
+
+.agbut {
+
+float: right;    
+background-color: rgba(10,120,10, 0.5);
+border:none;
+color: white;
+padding: 15px 15px;
+width: auto;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+transition: background-color 1s, padding 1s;
+top: 0;
+}
+
+.agbtn[type="submit"]:hover{
+    background-color:  rgba(10,120,10, 1);
+    padding: 20px 40px;
+}
+
+
+
+.dwnbtn[type="submit"] {
+float:left;    
+background-color: rgba(10,120,10, 0.5);
+border:none;
+color: white;
+padding: 15px 30px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+transition: background-color 0.5s, padding 0.5s;
+   
+}
+.dwnbtn[type="submit"]:hover{
+    background-color:  rgba(10,120,10, 1);
+    padding: 16px 32px;
+    
+
+   
+}
+.afbtn[type="submit"] {
+float:left;    
+background-color: rgba(10,120,10, 0.5);
+border:none;
+color: white;
+padding: 15px 30px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+transition: background-color 0.5s, padding 0.5s;
+margin-left: 20px;   
+}
+.afbtn[type="submit"]:hover{
+    background-color:  rgba(10,120,10, 1);
+    padding: 16px 32px;  
+
+} 
+
+/* 
+Cookie Content Syles Go here
+*/
+.ckcnsmenu {
+position: fixed;
+top: 0;
+width: 100%;
+}
+ .cks {   
+   border-radius: 10px;
+   height: 256px;
+   width: auto;
+   margin:2px;
+   padding:15px;
+    } 
+   .ckconlb {   
+   border-radius: 2px;
+   height: 256px;
+   width: auto;
+   margin:1px;
+   padding:10px;
+   }
+
+/* 
+Radio Buttons
+*/
+
+
+.imgradwtxt{
+    margin-left:35px;
+}
+.imgradhtxt{
+    margin-top:20px;
+}
+
+   
+   
+/* 
+Unclassified Syles Go here
+*/
+
+
+
+.imgedithtxt{
+    
+    top:0;
+    text-align:center;
+    padding-left:150px;
+}
+    
+.selmenu {
+position: fixed;
+bottom: 0;
+width: auto;
+}
+
+.halttext {
+    text-decoration: none;
+    font-size: 12px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.sellst {
+display:block;
+height:75px   
+}
+.sellstgen {
+display:inline;
+height:75px
+}
+.sellstck {    
+list-style: none;
+margin: 0px;
+padding: 0px;
+float: right;
+top: 0;
+}
+.sellnkl{  
+float:right;
+margin:auto;    
+width:auto;
+top:0;
+background-color: rgba(10,10,10, 0.5);
+border:none;
+color: white;
+padding: 15px 30px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+transition: background-color 0.5s;
+}   
+.sellnkl:hover{
+ background-color:  rgba(10,10,120, 1);
+}
+.sellnke{  
+float:right;
+margin:auto;    
+width:auto;
+top:0;
+background-color: rgba(10,10,10, 0.5);
+border:none;
+color: white;
+padding: 15px 30px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+transition: background-color 0.5s;
+}   
+.sellnke:hover{
+ background-color:  rgba(10,10,120, 1);       
+}
+.drpsles{
+    top:0;
+    width:15%;
+    float:left;
+    color: white;
+    padding: 15px 30px;
+    background-color: rgba(10,10,10, 0.5);
+    font-size:16px;
+    border:none;
+}
+.drpsles:hover{
+    background-color:  rgba(10,10,120, 1);
+}
+.sldsdiv{
+height: -webkit-fill-available;
+padding-top:10px;    
+text-align: center;    
+display:inline-grid;
+color:white;
+background-color: rgba(10,10,10, 1);
+}
+.slds{
+    color: white;
+    background-color: rgba(10,10,10, 0.5);
+    border:none;
+    -webkit-appearance: slider-vertical;
+    z-index: 1;
+}
+.slds:hover{
+    background-color:  rgba(10,10,120, 1);
+}
+.imgcatfd { 
+    float:right;
+}
+.stst{
+        width:500px;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        top: 0;
+}
+.formfix{
+    display:flex;
+}
+.imgmainf{
+    display: inline;
+    position: absolute;
+    max-width:95%;
+    float:left;
+    padding-top:110px;
+    padding-bottom:110px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.sldsh{
+    width:25px;
+    position: inherit;
+    float:left;
+    margin-top:90px;
+    color: white;
+    background-color: rgba(10,10,10, 0.5);
+    border:none;
+    -webkit-appearance: slider-vertical;
+    
+}
+.sldsh:hover{
+    background-color:  rgba(10,10,120, 1);
+}
+.sldsw{
+    
+    display:block;
+    top:0;
+    color: white;
+    background-color: rgba(10,10,10, 0.5);
+    border:none;
+    z-index: 1;
+}
+.sldsw:hover{
+    background-color:  rgba(10,10,120, 1);
+}
+
+   .imgprevt {
+   width:auto;
+   height:350px;
+   top:0;
+   margin:2px;
+   padding:15px;
+
+   }
+.flex-cnt-editt {
+        position: absolute;      
+        display:inline;
+        padding-left:150px;
+        padding-right:150px;
+        padding-top:10px;
+        overflow:hidden;
+}
+.imgtxtin[type="text"]{
+    position: absolute;
+    background-color: whitesmoke;
+    padding:5px;
+    width: 256px;
+    height: 50px;
+    
+    
+}
+.imgradh{
+    float:left;
+    height: 350px;
+    width: 25px;
+
+}
+.imgradw{
+    padding-left:5px;
+}
+.imgflabel{
+    width:50%;
+    margin:auto;
+}
+.sldsrad{
+    float:left;
+    width: 25px;
+    height: 350px;
+    background-color: rgba(10,10,10, 1);
+}
+.helptxt{
+    padding-top: 15px;
+    float:left;
+    width:25%;
+    bottom:0;
+.adiv{
+background-color: rgba(0,0,0, 0.9);
+}
